@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Chat Assistant</title>
+    <style>
+        .header-image { max-width: 200px; border-radius: 8px; margin-bottom: 1rem; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+        .header { background-color: #2c3e50; color: white; text-align: center; padding: 2rem 0; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+        .content { margin-top: 2rem; }
+        .footer { background-color: #34495e; color: white; text-align: center; padding: 1rem 0; position: fixed; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="boic.jpg" alt="Hero Image" class="header-image">
+        <h1>Bogac Jr.</h1>
+        <p>He can help you about anything, literally anything xd</p>
+    </header>
+    <main class="container">
+        <div class="content">
+            <h2>Welcome to our PDF Chat Assistant</h2>
+            <p>This AI-powered assistant can help you understand and analyze your PDF documents. Simply start a conversation and ask any questions about your uploaded documents.</p>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2025 PDF Chat Assistant. All rights reserved.</p>
+    </footer>
+
+    <script type="module">
+        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+        Chatbot.init({
+            chatflowid: "5850a2b4-34f5-4fe1-b51c-0c1fed73966a",
+            apiHost: "http://localhost:3000",
+        })
+    </script>
+</body>
+</html>
