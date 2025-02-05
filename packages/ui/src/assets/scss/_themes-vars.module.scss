@@ -1,19 +1,19 @@
 // paper & background
 $paper: #ffffff;
 
-// primary (koyu mavi tonları)
-$primaryLight: #e8f0fe;
-$primaryMain: #1a73e8;
-$primaryDark: #1557b0;
-$primary200: #81b4fe;
-$primary800: #0d47a1;
+// primary (daha sofistike mavi tonları)
+$primaryLight: #e3f2fd;
+$primaryMain: #2c3e50;  // Koyu lacivert - ana renk
+$primaryDark: #1a2639;
+$primary200: #90caf9;
+$primary800: #0d1b2a;
 
-// secondary (gri-mavi tonları)
-$secondaryLight: #f4f6f8;
-$secondaryMain: #5f6b7c;
-$secondaryDark: #3e4857;
-$secondary200: #b0bac5;
-$secondary800: #2f3845;
+// secondary (gri-yeşil tonları)
+$secondaryLight: #eceff1;
+$secondaryMain: #34495e;
+$secondaryDark: #2c3e50;
+$secondary200: #b0bec5;
+$secondary800: #263238;
 
 // success
 $successLight: #e6f4ea;
@@ -57,17 +57,17 @@ $transparent: #ffffff00;
 // ==============================|| DARK THEME VARIANTS ||============================== //
 
 // paper & background
-$darkBackground: #191b1f;
-$darkPaper: #191b1f;
+$darkBackground: #1a2639;
+$darkPaper: #1f2937;
 
 // dark 800 & 900
-$darkLevel1: #252525; // level 1
-$darkLevel2: #242424; // level 2
+$darkLevel1: #252525;
+$darkLevel2: #242424;
 
 // primary dark
-$darkPrimaryLight: #23262c;
-$darkPrimaryMain: #23262c;
-$darkPrimaryDark: #191b1f;
+$darkPrimaryLight: #2c3e50;
+$darkPrimaryMain: #1a2639;
+$darkPrimaryDark: #0d1b2a;
 $darkPrimary200: #c9d4e9;
 $darkPrimary800: #32353b;
 
@@ -79,9 +79,9 @@ $darkSecondary200: #32353b;
 $darkSecondary800: #6200ea;
 
 // text variants
-$darkTextTitle: #d7dcec;
-$darkTextPrimary: #bdc8f0;
-$darkTextSecondary: #8492c4;
+$darkTextTitle: #e2e8f0;
+$darkTextPrimary: #cbd5e1;
+$darkTextSecondary: #94a3b8;
 
 // ==============================|| JAVASCRIPT ||============================== //
 
@@ -138,8 +138,6 @@ $darkTextSecondary: #8492c4;
     grey600: $grey600;
     grey700: $grey700;
     grey900: $grey900;
-
-    // ==============================|| DARK THEME VARIANTS ||============================== //
 
     // paper & background
     darkPaper: $darkPaper;
